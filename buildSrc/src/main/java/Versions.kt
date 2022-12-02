@@ -7,6 +7,7 @@ object Versions {
 
     object Google {
         const val MATERAIL = "1.7.0"
+        const val HILT = "2.38.1"
     }
 
     object Test {
@@ -16,5 +17,10 @@ object Versions {
     object AndroidTest {
         const val ANDROID_JUNIT = "1.1.4"
         const val ANDROID_ESPRESSO = "3.5.0"
+    }
+
+    object Libraries {
+        const val RETROFIT = "2.7.1"
+        const val OKHTTP = "3.14.9"
     }
 }

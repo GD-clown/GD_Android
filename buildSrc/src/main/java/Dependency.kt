@@ -8,6 +8,9 @@ object Dependency {
 
     object Google {
         const val MATERAIL = "com.google.android.material:material:${Versions.Google.MATERAIL}"
+        const val HILT_ANDROID = "com.google.dagger:hilt-android:${Versions.Google.HILT}"
+        const val HILT_ANDROID_COMPILER =
+            "com.google.dagger:hilt-android-compiler:${Versions.Google.HILT}"
     }
 
     object Test {
@@ -18,5 +21,12 @@ object Dependency {
         const val ANDROID_JUNIT = "androidx.test.ext:junit:${Versions.AndroidTest.ANDROID_JUNIT}"
         const val ANDROID_ESPRESSO =
             "androidx.test.espresso:espresso-core:${Versions.AndroidTest.ANDROID_ESPRESSO}"
+    }
+
+    object Libraries {
+        const val RETROFIT = "com.squareup.retrofit2:retrofit:${Versions.Libraries.RETROFIT}"
+        const val RETROFIT_CONVERTER_GSON =
+            "com.squareup.retrofit2:converter-gson:${Versions.Libraries.RETROFIT}"
+        const val OKHTTP = "com.squareup.okhttp3:okhttp:${Versions.Libraries.OKHTTP}"
     }
 }
